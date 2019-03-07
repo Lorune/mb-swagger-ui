@@ -14,7 +14,9 @@ module.exports = function swaggerUi(options) {
     router.get('/', function (req, res) {
         let template = path.resolve(__dirname, 'static/index.html')
         let html = fs.readFileSync(template, 'UTF-8')
-        html = html.replace(/\{\{ROUTE\}\}/ig, (options.route || 'api-docs')).replace(/\{\{DOCS\}\}/ig, (options.docs || 'api-docs.json'))
+        html = html.replace(/\{\{ROUTE\}\}/ig, (options.route || 'api-docs'))
+        html = html.replace(/\{\{DOCS\}\}/ig, (options.docs || 'api-docs.json'))
+        html = html.replace(/\{\{BASEPATH\}\}/ig, (options.basepath || ''))
         res.send(html)
     })
 
