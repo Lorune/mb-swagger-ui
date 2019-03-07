@@ -1,6 +1,6 @@
 {
-  "name": "express-swaggerize-ui",
-  "version": "1.0.4",
+  "name": "mb-swagger-ui",
+  "version": "1.0.0",
   "description": "Express middleware to display a swagger-ui 3 page",
   "main": "index.js",
   "files": [
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pgroot/express-swaggerize-ui.git"
+    "url": "https://github.com/Lorune/mb-swagger-ui.git"
   },
   "keywords": [
     "swagger-ui",
@@ -21,12 +21,12 @@
     "middleware",
     "swagger-ui-3"
   ],
-  "author": "pgroot",
+  "author": "lorune",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pgroot/express-swaggerize-ui/issues"
+    "url": "https://github.com/Lorune/mb-swagger-ui/issues"
   },
-  "homepage": "https://github.com/pgroot/express-swaggerize-ui",
+  "homepage": "https://github.com/Lorune/mb-swagger-ui",
   "dependencies": {
     "express": "^4.13.3"
   },
